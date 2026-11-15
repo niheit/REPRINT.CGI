@@ -1,1 +1,1 @@
-# REPRINT.CGI
+Geography Reprint Database
