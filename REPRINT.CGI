@@ -8,9 +8,8 @@ $script ="REPRINT.CGI";
 
 #Name of data file
 $csvfile = "/var/www/cgi-bin/REPRINT.CSV";
-# The file encoding is euc-jp.
-# Need Japanese Font --> 
-# IPA Gothic --> http://moji.or.jp/wp-content/ipafont/IPAfont/ipag00303.zip
+# The file encoding is euc-jp. Need Japanese font, e.g. IPA Gothic --> 
+# http://moji.or.jp/wp-content/ipafont/IPAfont/ipag00303.zip
 
 #Data style
 #0=comma delimited text; 1=comma delimited text with double quotations [" "]; 
@@ -36,10 +35,10 @@ $home = '../INDEX.HTM';
 #Setting of cloumns
 
 #Colum names
-@column_name = ('No. *', 'Author Original', 'Author Detail', 
-'Author', 'Year', 'Title Original', 'Title', 
-'Journal Original', 'Journal', 'Volume', 'Number', 'Page Start', 
-'Page End');
+@column_name = ('No. *', 'Author_Orig', 'Author_Pron', 
+'Author_En', 'Year', 'Title_Orig', 'Title_En', 
+'Journal_Orig', 'Journal_En', 'Volume', 'Number', 'Page_Start', 
+'Page_End');
 
 #Data attribution (1= text; 2=image; 3=URL) 
 @column_type = ('1','1','1','1','1','1','1','1','1','1','1','1','1');
