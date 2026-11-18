@@ -187,7 +187,6 @@ EOF
 #Footer
 sub footer {
 print <<"EOF";
-<!-- <A HREF=../CGI/JOURNAL.HTM>Search In Detail</A> -->
 </TT>
 </BODY>
 </HTML>
@@ -308,7 +307,8 @@ sub pagechg_2 {
   print "<BR> <BR> \n";
   print "* PDF file available ; <BR> \n";
   print "1234 --> HTTP://2242.MOOO.COM/REP/1234.PDF <BR>\n";
-  print " JS --> See J-STAGE. \n";
+  print "JS --> See J-STAGE. <BR> <BR>\n";
+  print "<A HREF=../CGI/JOURNAL.HTM>Search In Detail</A>"
 }
 
 #Column name
