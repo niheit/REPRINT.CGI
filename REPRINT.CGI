@@ -308,7 +308,7 @@ sub pagechg_2 {
   print "* PDF file available ; <BR> \n";
   print "1234 --> HTTP://2242.MOOO.COM/REP/1234.PDF <BR>\n";
   print "JS --> See J-STAGE. <BR> <BR>\n";
-  print "<A HREF=../CGI/JOURNAL.HTM>Search In Detail</A>"
+  print "<A HREF=../CGI/REPRINT.HTM>Search By Item</A>"
 }
 
 #Column name
